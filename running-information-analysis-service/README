@@ -1,0 +1,7 @@
+1. use original h2 database instead of mysql.
+2. run mvn clean install under running-information-analysis-service
+3. run fat-jar file under target repo.
+4. post Json file with: localhost:8080/runningInfo
+5. retrieve info with: localhost:8080/runningInfo?page=insert-page-number-here  
+   predefined 2 data per page. insert page number according to total data number.
+6. support delete by runningId function with: localhost:8080/runningInfo/insert-runningId-here
